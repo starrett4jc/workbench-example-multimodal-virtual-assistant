@@ -1,7 +1,13 @@
---only-binary=onnx
+--only-binary=:all:
+--prefer-binary
+
+numpy==1.26.4
+numba==0.59.1
+llvmlite==0.42.0
 
 onnx==1.16.2
 protobuf>=3.20.3,<5
+
 
 jupyterlab>3.0
 llama-index-vector-stores-lancedb==0.2.2
