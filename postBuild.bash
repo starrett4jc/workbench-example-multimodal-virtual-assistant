@@ -1,10 +1,6 @@
 #!/bin/bash
-# This file contains bash commands that will be executed at the end of the container build process,
-# after all system packages and programming language specific package have been installed.
-#
-# Note: This file may be removed if you don't need to use it
-#!/bin/bash
 set -e
 
-
-apt-get update && apt-get install -y ffmpeg libsm6 libxext6
+# Intentionally left minimal.
+# System packages should be installed via apt.txt (runs as root earlier in the build).
+# Python packages should be installed via requirements.txt.
