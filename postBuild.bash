@@ -5,7 +5,6 @@
 # Note: This file may be removed if you don't need to use it
 #!/bin/bash
 set -e
-pip install "git+https://github.com/openai/CLIP.git"
-pip install git+https://github.com/openai/CLIP.git
+
 
 apt-get update && apt-get install -y ffmpeg libsm6 libxext6
