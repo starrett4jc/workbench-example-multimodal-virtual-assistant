@@ -5,3 +5,10 @@ tesseract-ocr
 libtesseract-dev
 tesseract-ocr-eng
 tesseract-ocr-script-latn
+ffmpeg
+libsm6
+libxext6
+tesseract-ocr
+poppler-utils
+libmagic1
+libgl1
